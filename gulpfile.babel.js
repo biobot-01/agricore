@@ -284,7 +284,7 @@ function watch() {
   gulp.watch(paths.js.vendor.dest, reload);
 }
 
-// Gulp commands names
+// Gulp command names
 // Dev command
 const dev = gulp.series(copyAll, styles, lintScripts, serve, watch);
 
